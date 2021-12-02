@@ -6,24 +6,13 @@
 	<array>
 		<dict>
 			<key>path</key>
-			<string>doSomething.py</string>
+			<string>tool.py</string>
 			<key>preferredName</key>
-			<string>do something</string>
+			<string>Tool</string>
 			<key>shortKey</key>
 			<array>
 				<integer>1179648</integer>
-				<string>b</string>
-			</array>
-		</dict>
-		<dict>
-			<key>path</key>
-			<string>doSomethingElse.py</string>
-			<key>preferredName</key>
-			<string>do something else</string>
-			<key>shortKey</key>
-			<array>
-				<integer>524288</integer>
-				<string>o</string>
+				<string>t</string>
 			</array>
 		</dict>
 	</array>
@@ -32,22 +21,22 @@
 	<key>developerURL</key>
 	<string>http://github.com/roboDocs</string>
 	<key>expireDate</key>
-	<string>2020-12-31</string>
+	<string>2021-12-31</string>
 	<key>html</key>
 	<true/>
 	<key>launchAtStartUp</key>
 	<true/>
 	<key>mainScript</key>
-	<string>hello.py</string>
+	<string>events.py</string>
 	<key>name</key>
 	<string>myExtension</string>
 	<key>requiresVersionMajor</key>
 	<string>4</string>
 	<key>requiresVersionMinor</key>
-	<string>0</string>
+	<string>1</string>
 	<key>timeStamp</key>
-	<real>1638366053.720922</real>
+	<real>1638457685.0927172</real>
 	<key>version</key>
-	<string>0.2.6</string>
+	<string>0.1</string>
 </dict>
 </plist>

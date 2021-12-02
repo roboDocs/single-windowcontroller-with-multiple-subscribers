@@ -1,7 +1,7 @@
 '''build RoboFont Extension'''
 
 import os
-from AppKit import NSCommandKeyMask, NSAlternateKeyMask, NSShiftKeyMask
+from AppKit import NSCommandKeyMask, NSShiftKeyMask
 from mojo.extensions import ExtensionBundle
 
 # get current folder
@@ -53,45 +53,36 @@ imagePath = os.path.join(resourcesPath, 'icon.png')
 B.icon = imagePath
 
 # version of the extension
-B.version = '0.2.6'
+B.version = '0.1'
 
 # should the extension be launched at start-up?
 B.launchAtStartUp = True
 
 # script to be executed when RF starts
-B.mainScript = 'hello.py'
+B.mainScript = 'events.py'
 
 # does the extension contain html help files?
 B.html = True
 
 # minimum RoboFont version required for this extension
 B.requiresVersionMajor = '4'
-B.requiresVersionMinor = '0'
+B.requiresVersionMinor = '1'
 
 # scripts which should appear in Extensions menu
 B.addToMenu = [
     {
-        'path':          'doSomething.py',
-        'preferredName': 'do something',
-        'shortKey':      (NSCommandKeyMask | NSShiftKeyMask, 'b'),
+        'path':          'tool.py',
+        'preferredName': 'Tool',
+        'shortKey':      (NSCommandKeyMask | NSShiftKeyMask, 't'),
     },
-    {
-        'path':          'doSomethingElse.py',
-        'preferredName': 'do something else',
-        'shortKey':      (NSAlternateKeyMask, 'o'),
-    }
 ]
 
 # license for the extension
 with open(licensePath) as license:
     B.license = license.read()
 
-# required extensions
-with open(requirementsPath) as requirements:
-    B.requirements = requirements.read()
-
 # expiration date for trial extensions
-B.expireDate = '2020-12-31'
+B.expireDate = '2021-12-31'
 
 # compile and save the extension bundle
 print('building extension...', end=' ')

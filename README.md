@@ -1,17 +1,15 @@
-# Boilerplate RoboFont Extension
+# Single WindowController ruling over several Subscribers
 
-A dummy RoboFont extension to demonstrate the [Extension Folder Structure].
+The repository contains the minimum amount of build an extension based on a single vanilla window ruling over different subscribers. Tools like [Outliner](https://github.com/typemytype/outlinerRoboFontExtension) or [WurstSchreiber](https://github.com/asaumierdemers/WurstSchreiber).
 
-Updated for [RoboFont 4.0]. Previous versions available as tagged releases.
+Minimum required version: [RoboFont 4.1]
 
 Includes a boilerplate [.mechanic] file for extensions hosted on [GitHub]
 
 - - -
 
-note for GitHub users: If you are starting your own extension, you can use this repository as a [template].
-
 [Extension Folder Structure]: https://robofont.com/documentation/reference/extensions/extension-file-spec/#extension-folder-structure
 [.mechanic]: https://robofont.com/documentation/reference/extensions/extension-item-format/
-[RoboFont 4.0]: https://forum.robofont.com/topic/804/robofont-four
+[RoboFont 4.1]: https://forum.robofont.com/topic/998/robofont-4-1
 [template]: https://help.github.com/en/articles/creating-a-repository-from-a-template
 [GitHub]: https://github.com/robodocs/rf-extension-boilerplate
