@@ -83,7 +83,7 @@ B.expireDate = '2021-12-31'
 
 # compile and save the extension bundle
 print('building extension...', end=' ')
-B.save(extensionPath, libPath=libPath, htmlPath=htmlPath, resourcesPath=resourcesPath, pycOnly=pycOnly)
+B.save(extensionPath, libPath=libPath, htmlPath=htmlPath, resourcesPath=resourcesPath)
 print('done!')
 
 # check for problems in the compiled extension
