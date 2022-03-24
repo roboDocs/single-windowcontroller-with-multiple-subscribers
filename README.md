@@ -1,6 +1,6 @@
 # Single WindowController ruling over several Subscribers
 
-The repository contains the minimum amount of build an extension based on a single vanilla window ruling over different subscribers. Tools like [Outliner](https://github.com/typemytype/outlinerRoboFontExtension) or [WurstSchreiber](https://github.com/asaumierdemers/WurstSchreiber).
+The repository contains the minimum amount of code to build an extension based on a single vanilla window ruling over different subscribers. Tools like [Outliner](https://github.com/typemytype/outlinerRoboFontExtension) or [WurstSchreiber](https://github.com/asaumierdemers/WurstSchreiber).
 
 Minimum required version: [RoboFont 4.1]
 
